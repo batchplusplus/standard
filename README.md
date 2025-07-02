@@ -1,4 +1,4 @@
-# The Batch++ standard v1.0.0
+# The Batch++ standard v1.0.1
   
 ## 1. Setting a value to a variable  
   
@@ -70,7 +70,9 @@ label label_name
 goto label_name  
 # You can also call them using the `call` command.  
 call label_name  
-```  
+```
+
+Anything not mentioned to be part of the language syntax that is part of Batch syntax is supported.
   
 ## Rules for implementing a Batch++ compiler  
 
