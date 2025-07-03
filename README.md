@@ -1,4 +1,4 @@
-# The Batch++ standard v2.0.0
+# The Batch++ standard v1.0.1
   
 ## 1. Setting a value to a variable  
   
@@ -42,7 +42,7 @@ if <condition>
     # Do something  
 else  
     # Do something else  
-end
+endif  
 ```  
   
 ## 6. While loops  
@@ -50,7 +50,7 @@ end
 ```batch  
 while <condition>  
     # Do something  
-end
+endwhile  
 ```  
   
 ## 7. For loops  
@@ -58,7 +58,7 @@ end
 ```batch  
 for <something>  
     # Do something  
-end
+endfor  
 ```  
   
 ## 8. Labels  
