@@ -1,4 +1,4 @@
-# The Batch++ standard v1.0.1
+# The Batch++ standard v1.0.2
   
 ## 1. Setting a value to a variable  
   
@@ -10,7 +10,8 @@ set var=value
   
 ```batch  
 # You can use a hash to comment, unlike in regular batch files  
-# This is a comment  
+# This is a comment 
+^# If you escape comments by doing that, they will NOT be treated as comments. 
 ```  
   
 ## 3. Macros  
@@ -80,4 +81,3 @@ Anything not mentioned to be part of the language syntax that is part of Batch s
 2. Writing regular Batch should be allowed. Do not throw an error on unrecognized commands, only on invalid syntax!
 3. Batch++ should compile to regular Batch.
 4. You should ONLY follow the standard. If your compiler implementation is incomplete or adds extra commands, you should specify in the associated documentation files that the user WILL see.
-
